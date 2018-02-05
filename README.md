@@ -10,7 +10,7 @@ Live link: [differentialLineGrowth.html](http://hessmer.org/generative/different
 ## Processing
 The Processing code resides in the Processing subfolder. It also contains KdTree.pde, an implementation of KD Tree based on the JavaScript implementation by [Ubilabs](https://github.com/ubilabs/kd-tree-javascript).
 
-Press 'p' to pause the execution; press ' ' (spacebar) to save the high resolution output as a png file.  
+Press 'p' to pause the execution; press ' ' (spacebar) to save the output as an svg file.  
 
 ## Sample Output
 
