@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<title>Differential Line Growth</title>
+<meta name="description" content="Inspired by and heavily borrowed from
+  http://www.codeplastic.com/2017/07/22/differential-line-growth-with-processing/
+  and http://inconvergent.net/generative/differential-line/">
+<meta name="author" content="Dr. Rainer Hessmer">
+<style>
+  .centerbox {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    width: 100%;
+    height: 100%;
+    margin: 0; padding: 0;
+  }
+  body, html { width: 100%; height: 100%; padding: 0; margin: 0; }
+</style>
+<div class='centerbox'>
+  <canvas id="canvas"></canvas>
+</div>
+<script src="js/kdTree.js"></script>
+<script src="js/differentialLineGrowth.js"></script>
